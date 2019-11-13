@@ -1,0 +1,829 @@
+@font-face {
+    font-family: 'Canela Web';
+    src: url(media/Canela-Regular-Web.woff2.eot);
+    src: url(media/Canela-Regular-Web.woff2.eot?#iefix) format("embedded-opentype"), url(media/Canela-Regular-Web.woff2) format("woff2"), url(media/Canela-Regular-Web.woff2) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+html {
+    background-color: rgb(36, 36, 36);
+    /* font-size: 125%; */
+    line-height: 1.4;
+    font-weight: 400;
+    color: grey;
+} 
+
+body {
+    margin: 0px;
+    font-family: "Canela Web", serif;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: repeat(32, 1fr);
+    grid-template-rows: 80px;
+}
+
+nav {
+    height: 80px;
+    overflow: hidden;
+    margin-left: 0px;
+    position: absolute;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 43% repeat(4, auto);
+    background-color: rgb(219, 218, 218);
+}
+
+nav a { 
+    color: rgb(51, 51, 51);
+    text-align: center;
+    padding: 35px 18px;
+    text-decoration: none;
+    font-size: 14px;
+    display: grid;
+    letter-spacing: 0em;
+    transition: letter-spacing 2s ease;
+}
+
+.navstart {
+    justify-items: left;
+}
+
+.nav1 {
+    letter-spacing: 0.3em;
+}
+
+.navigation a:hover {
+  color: rgb(189, 161, 5);
+  letter-spacing: 0.5em;
+  font-size: 16px;
+  transition: all 1s ease;
+}
+
+.active-box {
+    grid-area: 1 / 3 / span 1 / span 1;
+    line-height: 0px;
+    text-align: center;
+}
+
+.active {
+    color: rgb(153, 130, 2);
+    padding-bottom: 20px;
+    padding-top: 45px;
+} 
+
+.active-line {
+    background-color: rgb(153, 130, 2);
+    height: 2px;
+    width: 50px;
+    margin-top: 0px;
+    z-index: 2;
+    display: inline-block;
+    transition: all 2s ease;
+}
+
+.active-box:hover .active-line {
+    width: 80px;
+    transition: all 1s ease;
+}
+
+.btn {
+    grid-area: 1 / 5 / span 1 / span 1;
+    display: none;
+}
+
+#last {
+    grid-area: 1 / 5 / span 1 / span 1;
+}
+
+.menu {
+   display: none;
+   grid-area: 2 / 1 / span 1 / span 32;
+   z-index: 5;
+   height: 240px;
+}
+
+.menu-group {
+   background-color: rgb(190, 190, 190);
+   grid-area: 2 / 1 / span 3 / span 32;
+   height: 248px;
+}
+
+.menu a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    background-color: rgb(95, 94, 94);
+    color: white;
+}
+
+#active {
+    color: rgb(153, 130, 2);
+}
+
+#active:hover {
+    color: white;
+}
+
+main {
+    background-color: rgb(219, 218, 218);
+}
+
+.head {
+    grid-area: 2 / 1 / span 1 / span 32;
+    text-align: center;
+    margin-top: 70px;
+    animation-name: head;
+    animation-duration: 1s; 
+    animation-delay: 1.5s;
+    visibility: hidden;
+}
+
+.head h1 {
+    color: rgb(158, 58, 139);
+    font-size: 45px;
+}
+
+.head p {
+    font-size: 20px;
+}
+
+.head1 {
+    visibility: visible;
+}
+
+@keyframes head {
+    0% {transform: scaleY(0); transform-origin: bottom;}
+    100% {transform: scaleY(1);}
+}
+
+.november {
+  max-width: max-content;
+  /* min-width: 900px; */
+  margin: 3em auto 0 auto;
+  padding: 1.5em;
+  background-color: #fff;
+  border: 2px solid grey;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  grid-area: 1 / 1 / span 1 / span 1;
+  align-content: center;
+}
+
+.calendar {
+    max-width: 900px;
+}
+
+ /* For the month */
+.month-indicator {
+  color: rgb(158, 58, 139);
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.next-cal {
+    display: grid;
+    width: 32px;
+}
+
+#left-play {
+    margin-bottom: 3px;
+    margin-right: 20px;
+}
+
+#left-play2 {
+    margin-bottom: 3px;
+    margin-right: -31px;
+}
+
+#left-play:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+#play {
+    grid-area: 1 / 1 / span 1 / span 1;
+    margin-bottom: 3px;
+    margin-left: -30px;
+    opacity: 1;
+}
+
+#play2 {
+    grid-area: 1 / 1 / span 1 / span 1;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+
+#play:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+#size {
+    font-size: 40px;
+}
+
+/* CSS grid used for the dates */
+.day-of-week,
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+/* Styles for the weekday/weekend header */
+
+.day-of-week {
+  margin-top: 1.25em;
+  background-color: rgb(234, 221, 150);
+  font-size: 0.9em;
+  color: rgba(158, 58, 139, 1);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  text-align: center;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  border-top: 2px solid grey;
+}
+
+ .day {
+    padding: 20px 20px;
+
+}
+
+/* Positioning the first day */
+.date-grid button:first-child {
+  grid-column: 1;
+}
+
+/* Style for each day */
+.date-grid div {
+    position: relative;
+    border: 0;
+    max-width: 100%; 
+    height: 120px; 
+    /* width: 126px; */
+    color: grey;
+    text-align: right;
+    border-left: 2px solid grey;
+    border-top: 2px solid grey;
+}
+
+time {
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+#border {
+    border-right: 2px solid grey;
+}
+
+#border-2 {
+    border-bottom: 2px solid grey;
+}
+
+#border-3 {
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.date-grid .blank {
+    background-color: rgb(212, 212, 212);
+}
+
+.date-grid .blank:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+/* .date-grid div:hover,
+.date-grid div:focus {
+  outline: none;
+  background-color: rgb(234, 221, 150);
+  color: grey;
+} */
+
+/* .date-grid div:active,
+.date-grid div.is-selected {
+  background-color: teal;
+  color: teal;
+} */
+
+#no-border {
+    border: none;
+    height: 60px;
+}
+
+#no-border-1 {
+    border: none;
+    height: 60px;
+    border-left: 5px solid rgba(158, 58, 139, 1);
+}
+
+.button-group {
+    display: grid;
+    max-width: 100%;
+    height: max-content;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.event {
+    grid-area: 1 / 1 / span 1 / span 1;
+    color: white;
+    text-decoration: none;
+    font-family: "Canela Web", serif;
+    z-index: 3;
+    font-size: 16px;
+    height: max-content;
+    max-width: 100%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: left;
+
+}
+
+.button-bg {
+    grid-area: 1 / 1 / span 1 / span 1;
+    background-color: rgb(189, 129, 166);
+    transform-origin: right;
+    transition: transform 1200ms cubic-bezier(0.23, 1, 0.32, 1);
+    z-index: 2;
+    max-width: 100%;
+    height: 100%;
+
+}
+
+.button-bg-h {
+    grid-area: 1 / 1 / span 1 / span 1;
+    background-color: rgb(158, 58, 139);
+    z-index: 1;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.button-group:hover .button-bg {
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.button-group:hover .event {
+    cursor: pointer;
+}
+
+.event-info {
+    position: absolute;
+    width: 40%;
+    height: 600px;
+    background-color: #fff;
+    border: 2px solid rgb(158, 58, 139);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    z-index: 4;
+    border-radius: 8px;
+    overflow-y: scroll;
+    display: none;
+}
+
+.x {
+    text-align: right;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-family: 'Lucida Sans', sans-serif;
+    background-color: rgb(158, 58, 139);
+    color: white;
+}
+
+.x:hover {
+    color: rgb(189, 161, 5);
+    cursor: pointer;
+}
+
+.event-info img {
+    width: 100%;
+    margin-top: -10px;
+}
+
+.event-info h3 {
+    text-align: center;
+    color: rgb(158, 58, 139);
+}
+
+.event-info p {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(158, 58, 139);
+}
+
+#desc {
+    font-size: 14px;
+    color: rgb(36, 36, 36);
+    border-top: 2px solid grey;
+    margin: 20px; 
+    padding-top: 20px;
+}
+
+#links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 64px;
+}
+
+.event-info div {
+    border: none;
+    text-align: center;
+}
+
+
+#button-group-1 {
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+#button-1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+    color: rgb(83, 83, 83);
+    text-decoration: none;
+    font-family: "Canela Web", serif;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    border-right: 2px solid grey;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 24px;
+}
+
+#button-2 {
+    grid-area: 1 / 1 / span 1 / span 1;
+    color: rgb(83, 83, 83);
+    text-decoration: none;
+    font-family: "Canela Web", serif;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 24px;
+}
+
+#button-bg-1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+    background-color: rgb(234, 221, 150);
+    transform-origin: left;
+    transition: transform 1200ms cubic-bezier(0.23, 1, 0.32, 1);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+#button-bg-h-1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+    background-color: rgb(158, 58, 139);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#button-group-1:hover #button-bg-1 {
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+#button-group-1:hover #button-1 {
+    color: white;
+    cursor: pointer;
+}
+
+#button-group-1:hover #button-2 {
+    color: white;
+    cursor: pointer;
+}
+
+.show {
+    opacity: 1;
+    animation-name: show;
+    animation-duration: .5s;
+}
+
+@keyframes show {
+    0% {opacity: 0; transform: scaleY(0.1);}
+    100% {opacity: 1; transform: scaleY(1);}
+}
+
+
+/* Next Calendar */
+
+.october, .december, .january, .february {
+    max-width: max-content;
+    margin: 3em auto 0 auto;
+    padding: 1.5em;
+    background-color: #fff;
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    display: none;
+    grid-area: 1 / 1 / span 1 / span 1;
+    align-content: center;
+    /* min-width: 900px; */
+  }
+
+
+
+.img {
+    display: inline-block; 
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.load {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    max-width: 900px;
+    /* min-width: 900px; */
+    margin: 0 auto 0 auto;
+}
+
+.bg-1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+    background-color: rgb(219, 218, 218);
+    height: 100%;
+    width: 100%;
+    margin: 3em auto 0 auto;
+    z-index: 5;
+}
+ .bg-1-1 {
+    transition: transform 1000ms cubic-bezier(0.23, 1, 0.32, 1); 
+    transform: scaleX(0);
+    transform-origin: right;
+    transition-delay: .5s;
+ }
+
+.bg-2 {
+    grid-area: 1 / 1 / span 1 / span 1;
+    background-color: grey;
+    height: 100%; 
+    width: 100%;
+    margin: 3em auto 0 auto;
+    z-index: 4;
+}
+
+.bg-2-2 {
+    transition: transform 1000ms cubic-bezier(0.23, 1, 0.32, 1); 
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(36, 36, 36); 
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    left: 0;
+    bottom: 0;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact-text {
+    margin-top: 160px;
+    letter-spacing: .2em;
+}
+
+.contact-button-group {
+    display: inline-block;
+    height: 1px;
+}
+
+.contact-btn {
+    display: grid;
+    margin-top: 60px;
+}
+
+.button-c {
+    grid-area: 1 / 1 / span 1 / span 1;
+    font-size: 18px;
+    color: rgb(83, 83, 83);
+    padding-top: 20px;
+    text-decoration: none;
+    z-index: 3;
+}
+
+.button-bg-c {
+    grid-area: 1 / 1 / span 1 / span 1;
+    background-color: rgb(234, 221, 150);
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 1200ms cubic-bezier(0.23, 1, 0.32, 1);
+    z-index: 2;
+}
+
+.button-bg-h-c {
+    grid-area: 1 / 1 / span 1 / span 1;
+    background-color: rgb(158, 58, 139);
+    height: 40px;
+    width: 150px;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.contact-button-group:hover .button-bg-c {
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.contact-button-group:hover .button-c {
+    color: white;
+}
+
+#line-b {
+    height: 1px;
+    width: 90%;
+    background-color: white;
+    margin-top: 180px;
+    margin-left: 50px;
+}
+
+.navigation-b {
+    width: 94%;
+    grid-template-columns: 45% repeat(4, auto) 20%;
+    z-index: 3;
+    background-color: rgb(36, 36, 36);
+}
+
+.navigation-b a { 
+    float: left;
+    padding: 35px 0px;
+    color: white;
+}
+
+.navigation-b a:hover {
+    color: rgb(189, 161, 5);
+    transition: all 1s ease;
+}
+
+.navstart-b {
+    margin-left: 50px;
+    justify-items: left;
+  }
+
+.foot {
+    font-size: 12px;
+    margin-top: 37px;
+    text-align: right;
+    color: rgb(184, 184, 184);
+}
+
+@media only screen and (max-width: 965px) {
+    .date-grid div {
+        height: 140px;
+    }
+
+    #no-border {
+        height: 80px;
+    }
+    
+    #no-border-1 {
+        height: 80px;
+    }
+    
+}
+
+@media only screen and (max-width: 850px) {
+    .btn {
+        display: block;
+    }
+
+    #link {
+        display: none;
+    }
+
+    #link1 {
+        display: none;
+    }
+
+    #link2 {
+        display: none;
+    }
+
+    #last {
+        display: none;
+    }
+
+    .active-line {
+        display: none;
+    }
+
+    .navstart {
+        grid-area: 1 / 1 / span 1 / span 2;
+    }
+
+    .bio {
+        width: 100%;
+    }
+
+    #line-b {
+        width: 85%;
+    }
+
+    #hide-nav {
+        display: none;
+    }
+
+    .navigation-b {
+        grid-template-columns: 50% 50%;
+    }
+
+    .event-info {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .event {
+        font-size: 12px;
+    }
+
+    #no-border {
+        height: 60px;
+    }
+    
+    #no-border-1 {
+        height: 60px;
+    }
+
+    .date-grid div {
+        height: 120px;
+    }
+
+    .event-info {
+        width: 60%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .day-of-week {
+        font-size: 0.6em;
+    }
+
+    .event {
+        font-size: 10px;
+    }
+}
