@@ -1028,7 +1028,7 @@ footer {
     color: rgb(184, 184, 184);
 }
 
-@media only screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
     nav {
         grid-template-columns: 30% repeat(4, auto);
       }
@@ -1065,7 +1065,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 918px) {
+@media (max-width: 918px) {
     .shows {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1150,7 +1150,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 850px) {
+@media (max-width: 850px) {
     .btn {
         display: block;
     }
@@ -1225,7 +1225,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 730px) {
+@media (max-width: 730px) {
     .who {
         font-size: 80px;
         margin-top: 120px;
@@ -1252,7 +1252,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 662px) {
+@media (max-width: 662px) {
     .who {
         font-size: 65px;
         margin-top: 220px;
@@ -1275,7 +1275,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     #mypic {
          grid-area: 3 / 13 / span 2 / span 32;
     }
@@ -1318,7 +1318,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media (max-width: 500px) {
     .who {
         font-size: 60px;
         margin-top: 230px;
