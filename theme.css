@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Canela Web';
-    src: url(ckatr13.github.io/Canela-Regular-Web.woff2.eot);
-    src: url(ckatr13.github.io/Canela-Regular-Web.woff2.eot?#iefix) format("embedded-opentype"), url(ckatr13.github.io/Canela-Regular-Web.woff2) format("woff2"), url(ckatr13.github.io/Canela-Regular-Web.woff2) format("woff");
+    src: url(Canela-Regular-Web.woff2.eot);
+    src: url(Canela-Regular-Web.woff2.eot?#iefix) format("embedded-opentype"), url(Canela-Regular-Web.woff2) format("woff2"), url(Canela-Regular-Web.woff2) format("woff");
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
@@ -341,7 +341,7 @@ nav a {
 }
 
 .bg-img-1 {
-    background-image: url(ckatr13.github.io/Clarinet.jpg);
+    background-image: url(Clarinet.jpg);
     background-attachment: fixed;
     height: 100%;
     z-index: 1;
@@ -407,20 +407,20 @@ nav a {
 }
 
 .bg-img-2 {
-    background-image: url(ckatr13.github.io/Flute.jpg);
+    background-image: url(Flute.jpg);
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
 } 
 
 .bg-img-3 {
-    background-image: url(ckatr13.github.io/shutterstock_600775652.jpg);
+    background-image: url(shutterstock_600775652.jpg);
     background-attachment: fixed;
     height: 100%;
 } 
 
 .bg-img-4 {
-    background-image: url(ckatr13.github.io/photo2.jpg);
+    background-image: url(photo2.jpg);
     background-attachment: fixed;
     height: 100%;
 }
@@ -490,7 +490,7 @@ nav a {
 }
 
 .media-img {
-    background-image: url(ckatr13.github.io/Untitled-1.jpg);
+    background-image: url(Untitled-1.jpg);
     background-attachment: fixed;
     background-size: cover;
     height: 300px;
