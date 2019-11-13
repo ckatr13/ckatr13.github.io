@@ -305,7 +305,7 @@ nav a {
 }
 
 .showphoto {
-    background-image: url(media/sax-640x427.jpg);
+    background-image: url(ckatr13.github.io/sax-640x427.jpg);
     background-attachment: fixed;
     background-size: cover;
     height: 600px;
@@ -341,7 +341,7 @@ nav a {
 }
 
 .bg-img-1 {
-    background-image: url(media/Clarinet.jpg);
+    background-image: url(ckatr13.github.io/Clarinet.jpg);
     background-attachment: fixed;
     height: 100%;
     z-index: 1;
@@ -407,20 +407,20 @@ nav a {
 }
 
 .bg-img-2 {
-    background-image: url(media/Flute.jpg);
+    background-image: url(ckatr13.github.io/Flute.jpg);
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
 } 
 
 .bg-img-3 {
-    background-image: url(media/shutterstock_600775652.jpg);
+    background-image: url(ckatr13.github.io/shutterstock_600775652.jpg);
     background-attachment: fixed;
     height: 100%;
 } 
 
 .bg-img-4 {
-    background-image: url(media/photo2.jpg);
+    background-image: url(ckatr13.github.io/photo2.jpg);
     background-attachment: fixed;
     height: 100%;
 }
@@ -490,7 +490,7 @@ nav a {
 }
 
 .media-img {
-    background-image: url(media/Untitled-1.jpg);
+    background-image: url(ckatr13.github.io/Untitled-1.jpg);
     background-attachment: fixed;
     background-size: cover;
     height: 300px;
@@ -1079,7 +1079,7 @@ footer {
     }
 
     .bg-img-2 {
-        background-image: url("media/Flute2.jpg");
+        background-image: url("ckatr13.github.io/Flute2.jpg");
         background-position-y: unset;
     }
 
