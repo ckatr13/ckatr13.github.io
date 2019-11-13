@@ -221,7 +221,7 @@ main {
 #play {
     grid-area: 1 / 1 / span 1 / span 1;
     margin-bottom: 3px;
-    margin-left: -30px;
+    margin-left: -28px;
     opacity: 1;
 }
 
