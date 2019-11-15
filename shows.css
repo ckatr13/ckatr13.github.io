@@ -838,6 +838,22 @@ footer {
     .event {
         font-size: 8px;
     }
+    
+    #play {
+        margin-bottom: 0px;
+    }
+
+    #play2 {
+        margin-bottom: 0px;
+    }
+
+    #left-play {
+        margin-bottom: 0px;
+    }
+    
+    #left-play2 {
+        margin-bottom: 0px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
