@@ -183,10 +183,11 @@ main {
   margin-bottom: 50px;
   grid-area: 1 / 1 / span 1 / span 1;
   align-content: center;
+  width: 100%;
 }
 
 .calendar {
-    max-width: 1000px;
+/*     max-width: 1000px; */
 }
 
  /* For the month */
