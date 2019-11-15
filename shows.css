@@ -173,7 +173,7 @@ main {
 }
 
 .november {
-  max-width: max-content;
+  /* max-width: max-content;*/
   /* min-width: 900px; */
   margin: 3em auto 0 auto;
   padding: 1.5em;
@@ -186,7 +186,7 @@ main {
 }
 
 .calendar {
-    max-width: 900px;
+    max-width: 1000px;
 }
 
  /* For the month */
