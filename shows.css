@@ -825,3 +825,46 @@ footer {
         font-size: 10px;
     }
 }
+
+@media only screen and (max-width: 550px) {
+    .day {
+        padding: 10px;
+    }
+
+    #size {
+        font-size: 30px;
+    }
+
+    .event {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .event {
+        font-size: 6px;
+    }
+
+    #play {
+        grid-area: 1 / 1 / span 1 / span 1;
+        margin-bottom: 3px;
+        margin-left: -31px;
+        opacity: 1;
+    }
+    
+    #play2 {
+        margin-left: 0px;
+    }
+
+    #left-play {
+        margin-right: 10px;
+    }
+    
+    #left-play2 {
+        margin-right: -31px;
+    }
+
+    #size {
+        font-size: 24px;
+    }
+}
