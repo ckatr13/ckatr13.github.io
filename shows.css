@@ -545,8 +545,8 @@ time {
 /* Next Calendar */
 
 .october, .december, .january, .february {
-    max-width: max-content;
-    margin: 3em auto 0 auto;
+/*     max-width: max-content; */
+/*     margin: 3em auto 0 auto; */
     padding: 1.5em;
     background-color: #fff;
     border: 2px solid grey;
