@@ -842,7 +842,7 @@ footer {
 
 @media only screen and (max-width: 450px) {
     .event {
-        font-size: 6px;
+        font-size: 5px;
     }
 
     #play {
