@@ -729,9 +729,10 @@ footer {
 }
 
 @media only screen and (max-width: 965px) {
-    .date-grid div {
+@media only screen and (max-width: 965px) {
+    /* .date-grid div {
         height: 140px;
-    }
+    } */
 
     #no-border {
         height: 80px;
@@ -807,12 +808,17 @@ footer {
     }
 
     .date-grid div {
-        height: 120px;
+        height: 90px;
     }
 
     .event-info {
         width: 60%;
         margin-left: 15%;
+    }
+
+    .button-group {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 
@@ -838,7 +844,7 @@ footer {
     .event {
         font-size: 8px;
     }
-    
+
     #play {
         margin-bottom: 0px;
     }
@@ -854,6 +860,23 @@ footer {
     #left-play2 {
         margin-bottom: 0px;
     }
+
+    #no-border {
+        height: 44px;
+    }
+    
+    #no-border-1 {
+        height: 44px;
+    }
+
+    .date-grid div {
+        height: 70px;
+    }
+
+    .button-group {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -862,10 +885,7 @@ footer {
     }
 
     #play {
-        grid-area: 1 / 1 / span 1 / span 1;
-        margin-bottom: 3px;
         margin-left: -31px;
-        opacity: 1;
     }
     
     #play2 {
