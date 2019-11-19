@@ -1356,6 +1356,36 @@ footer {
         grid-area: 3 / 11 / span 2 / span 32;
         height: 500px;
     }
+    
+    #media {
+        grid-template-columns: 100%;
+        grid-template-rows: 200px 400px 400px 400px 200px 200px 200px 200px;
+        height: 2400px;
+    }
+
+    #mask-3 {
+        grid-area: 4 / 1 / span 1 / span 1;
+    }
+
+    #mask-4 {
+        grid-area: 5 / 1 / span 1 / span 1;
+    }
+
+    #mask-5 {
+        grid-area: 6 / 1 / span 1 / span 1;
+    }
+
+    #mask-6 {
+        grid-area: 7 / 1 / span 1 / span 1;
+    }
+
+    #mask-7 {
+        grid-area: 8 / 1 / span 1 / span 1;
+    }
+
+    .media-button {
+        grid-area: 9 / 1 / span 1 / span 4;
+    }
 }
 
 @media only screen and (max-width: 400px) {
