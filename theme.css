@@ -304,12 +304,22 @@ nav a {
     background-color: white;
 }
 
-.showphoto {
+/* .showphoto {
     background-image: url(sax-640x427.jpg);
     background-attachment: fixed;
     background-size: cover;
     height: 600px;
+} */
+
+.showphoto {
+    background-image: url(media/sax-640x427.jpg);
+    background-size: cover;
+    height: 600px;
 }
+ 
+ .no-touch .showphoto {
+    background-attachment: fixed;
+ }
 
 .shows {
     display: grid;
