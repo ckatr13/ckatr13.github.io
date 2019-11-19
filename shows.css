@@ -905,24 +905,4 @@ footer {
     }
 }
     
-@media only screen and (max-width: 400px) {
-    #mypic {
-        grid-area: 3 / 6 / span 2 / span 32;
-    }
 
-    .who {
-        margin-top: 260px;
-        margin-left: -20px;
-    }
-
-    .who2 {
-        margin-top: -50px;
-        margin-left: -20px;
-    }
-
-    #wwd {
-        margin-top: 38px;
-        grid-area: 6 / 5 / span 1 / span 29; 
-        margin-left: -20px;
-    }
-}
