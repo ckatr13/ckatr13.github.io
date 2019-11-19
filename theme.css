@@ -501,10 +501,14 @@ nav a {
 
 .media-img {
     background-image: url(Untitled-1.jpg);
-    background-attachment: fixed;
     background-size: cover;
     height: 300px;
 }
+ 
+ .no-touch .media-img {
+    background-attachment: fixed;
+ }
+
 
 #media {
     height: 100%;
