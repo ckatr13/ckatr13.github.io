@@ -1437,4 +1437,8 @@ footer {
         grid-area: 6 / 5 / span 1 / span 29; 
         margin-left: -20px;
     }
+    
+    #line-b {
+        width: 78%;
+    }
 }
