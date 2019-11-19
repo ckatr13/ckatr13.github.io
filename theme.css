@@ -1348,6 +1348,19 @@ footer {
     #mypic {
         grid-area: 3 / 6 / span 2 / span 32;
     }
+    
+    #mypic {
+        grid-area: 3 / 6 / span 2 / span 32;
+    }
+
+    #wipe-on-1 {
+        grid-area: 2 / 1 / span 6 / span 32;
+    }
+
+    #wipe-on-2 {
+        grid-area: 2 / 6 / span 6 / span 32;
+    }
+
 
     .who {
         margin-top: 260px;
