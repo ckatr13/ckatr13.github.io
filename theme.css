@@ -1441,4 +1441,8 @@ footer {
     #line-b {
         width: 78%;
     }
+    
+    .foot {
+        font-size: 10px;
+    }
 }
