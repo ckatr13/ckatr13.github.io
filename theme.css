@@ -114,6 +114,7 @@ nav a {
     visibility: hidden;
     cursor: pointer;
     transition: ease;
+    background-color: black;
 }
 
 .who {
