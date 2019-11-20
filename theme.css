@@ -75,7 +75,7 @@ nav a {
 }
 
 .menu {
-   display: none;
+   visibility: hidden;
    grid-area: 2 / 1 / span 3 / span 32;
    z-index: 5;
    height: 240px;
