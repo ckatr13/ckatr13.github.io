@@ -126,6 +126,20 @@ nav a {
     color: white;
 }
 
+#x-menu {
+    color: white;
+    grid-area: 1 / 5 / span 1 / span 1;
+    text-align: center;
+    margin-top: 15px;
+    font-Size: 14px;
+    font-family: helvetica;
+    visibility: hidden;
+    cursor: pointer;
+    transition: ease;
+    background-color: rgb(36, 36, 36);
+}
+
+
 #active {
     color: rgb(153, 130, 2);
 }
