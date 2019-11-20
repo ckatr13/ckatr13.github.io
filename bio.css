@@ -459,6 +459,17 @@ footer {
     }
 }
 
+@media only screen and (max-width: 400px) {
+    #line-b {
+        width: 78%;
+    }
+
+    .foot {
+        font-size: 10px;
+    }
+}
+
+
 
 
 
