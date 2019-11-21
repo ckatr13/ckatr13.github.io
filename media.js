@@ -32,11 +32,15 @@ function showAbout() {
 //Mobile Navigation Menu
 
 function showMenu() {
-    document.getElementById("menu").style.display = "block";
+    document.getElementById("menu").style.visibility = "visible";
+    document.getElementById("nav1").style.visibility = "hidden";
+    document.getElementById("x-menu").style.visibility = "visible";
 }
 
 function hideMenu() {
-    document.getElementById("menu").style.display = "none";
+    document.getElementById("menu").style.visibility = "hidden";
+    document.getElementById("x-menu").style.visibility = "hidden";
+    document.getElementById("nav1").style.visibility= "visible";
 }
 
 // functions to show videos
