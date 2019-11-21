@@ -14,7 +14,10 @@
             <div class="top">
                 <nav class="navigation">
                 <a class= "navstart" id="nav" href="index.html">Christina Cruder</a>
-                <a class="btn" href="#" id="nav1" class="btn-link" onmouseover="showMenu()">&#9776;</a>
+                <a class="btn" href="#" id="nav1" class="btn-link" onclick="showMenu()">&#9776;</a>
+                <div id="x-menu" onclick="hideMenu()">
+                    <h1>X</h1>
+                </div>
                 <a id="link" href="bio.html">About</a>
                 <div class="active-box">
                     <a class="active" id="link1" href="shows.html">Upcoming Shows</a>
@@ -25,7 +28,7 @@
                 <a id="last" href= "contact.html">Contact</a>
                 </nav> 
                 <div class="menu" id="menu">
-                <div class="menu-group" onmouseleave="hideMenu()">
+                <div class="menu-group" onclick="hideMenu()">
                     <a href="bio.html">About</a>
                     <a id="active" href="shows.html">Upcoming Shows</a>
                     <a href= "media.html">Media</a>
