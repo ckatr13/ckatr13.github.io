@@ -107,7 +107,7 @@ nav a {
 }
 
 .menu {
-   display: none;
+   visibility: hidden;
    grid-area: 2 / 1 / span 1 / span 32;
    z-index: 5;
    height: 240px;
@@ -130,6 +130,19 @@ nav a {
      background-color: rgb(95, 94, 94);
      color: white;
  }
+
+#x-menu {
+    color: black;
+    grid-area: 1 / 5 / span 1 / span 1;
+    text-align: center;
+    margin-top: 15px;
+    font-Size: 14px;
+    font-family: helvetica;
+    visibility: hidden;
+    cursor: pointer;
+    transition: ease;
+    background-color: rgb(219, 218, 218);
+}
 
 #active {
     color: rgb(153, 130, 2);
@@ -470,5 +483,15 @@ footer {
         display: grid;
         height: 1264px; 
         width: 300px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #line-b {
+        width: 78%;
+    }
+
+    .foot {
+        font-size: 10px;
     }
 }
