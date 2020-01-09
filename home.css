@@ -210,7 +210,7 @@
 }
 
 .showphoto {
-    background-image: url(media/sax-640x427.jpg);
+    background-image: url(sax-640x427.jpg);
     background-size: cover;
     height: 600px;
 }
@@ -249,7 +249,7 @@
 }
 
 .bg-img-1 {
-    background-image: url(media/Clarinet.jpg);
+    background-image: url(Clarinet.jpg);
     background-attachment: fixed;
     height: 100%;
     z-index: 1;
@@ -315,20 +315,20 @@
 }
 
 .bg-img-2 {
-    background-image: url(media/Flute.jpg);
+    background-image: url(Flute.jpg);
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
 } 
 
 .bg-img-3 {
-    background-image: url(media/shutterstock_600775652.jpg);
+    background-image: url(shutterstock_600775652.jpg);
     background-attachment: fixed;
     height: 100%;
 } 
 
 .bg-img-4 {
-    background-image: url(media/photo2.jpg);
+    background-image: url(photo2.jpg);
     background-attachment: fixed;
     height: 100%;
 }
@@ -398,7 +398,7 @@
 }
 
 .media-img {
-    background-image: url(media/Untitled-1.jpg);
+    background-image: url(Untitled-1.jpg);
     background-size: cover;
     height: 300px;
 }
@@ -882,7 +882,7 @@
     }
 
     .bg-img-2 {
-        background-image: url("media/Flute2.jpg");
+        background-image: url("Flute2.jpg");
         background-position-y: unset;
     }
 
