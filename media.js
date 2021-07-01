@@ -147,7 +147,7 @@ function loadVideo2() {
     ifrm.allowFullscreen;
     ifrm.className = "video-2";
     document.getElementById("videos").appendChild(ifrm);
-    hideSquirrel2();
+    hideSquirrel();
 }
 
 function loadVideo3() {
