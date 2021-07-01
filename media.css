@@ -256,7 +256,7 @@ main {
 }
 
 .video-2 {
-    grid-area: 4 / 1 / span 2 / span 1;
+    grid-area: 2 / 1 / span 2 / span 1;
 }
 
 #mask-3 {
