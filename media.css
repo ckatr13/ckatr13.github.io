@@ -803,7 +803,7 @@ main {
 }
 
 #mask-20 {
-    grid-area: 4 / 2 / span 2 / span 1;
+    grid-area: 2 / 2 / span 2 / span 1;
     overflow: hidden;
     display: grid;
     align-items: flex-end;
