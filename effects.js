@@ -72,7 +72,7 @@ function hideSquirrel19() {
 
 function loadVideo() {
     const ifrm = document.createElement("iframe");
-    ifrm.setAttribute("src", "https://player.vimeo.com/video/202589915");
+    ifrm.setAttribute("src", "https://player.vimeo.com/video/202588421");
     ifrm.style.width = "100%";
     ifrm.style.height = "400px";
     ifrm.frameBorder = "0";
@@ -146,7 +146,7 @@ function loadVideo6() {
 
 function loadVideo19() {
     const ifrm = document.createElement("iframe");
-    ifrm.setAttribute("src", "https://player.vimeo.com/video/202587343");
+    ifrm.setAttribute("src", "https://player.vimeo.com/video/202589915");
     ifrm.style.width = "100%";
     ifrm.style.height = "100%";
     ifrm.frameBorder = "no";
