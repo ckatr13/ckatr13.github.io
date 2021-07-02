@@ -442,7 +442,15 @@
 }
 
 #mask-1 {
-    grid-area: 2 / 1 / span 1 / span 2;
+    grid-area: 2 / 1 / span 1 / span 1;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: flex-end;
+}
+
+#mask-20 {
+    grid-area: 2 / 2 / span 1 / span 1;
     overflow: hidden;
     display: grid;
     grid-template-columns: 100%;
