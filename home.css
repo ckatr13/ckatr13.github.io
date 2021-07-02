@@ -457,6 +457,27 @@
     align-items: flex-end;
 }
 
+#mask-20:hover .bg-v {
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+#mask-20:hover #v1 {
+    transform: scale(1.25);
+}
+
+#mask-20:hover .song {
+    color: white;
+}
+
+#mask-20:hover #play {
+    visibility: hidden;
+}
+
+#mask-20:hover #play-w {
+    visibility: visible;
+}
+
 #selection {
     grid-area: 1 / 1 / span 1 / span 1;
     display: grid;
