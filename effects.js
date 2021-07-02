@@ -66,6 +66,9 @@ function hideSquirrel5() {
 function hideSquirrel6() {
     document.getElementById("mask-7").style.visibility = "hidden"; 
 }
+function hideSquirrel19() {
+    document.getElementById("mask-20").style.visibility = "hidden"; 
+}
 
 function loadVideo() {
     const ifrm = document.createElement("iframe");
@@ -130,6 +133,18 @@ function loadVideo5() {
 }
 
 function loadVideo6() {
+    const ifrm = document.createElement("iframe");
+    ifrm.setAttribute("src", "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687785005&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true");
+    ifrm.style.width = "100%";
+    ifrm.style.height = "100%";
+    ifrm.frameBorder = "no";
+    ifrm.allow = "autoplay"
+    ifrm.className = "video-6";
+    document.getElementById("media").appendChild(ifrm);
+    hideSquirrel6();
+}
+
+function loadVideo19() {
     const ifrm = document.createElement("iframe");
     ifrm.setAttribute("src", "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687785005&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true");
     ifrm.style.width = "100%";
