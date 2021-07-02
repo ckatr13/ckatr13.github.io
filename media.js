@@ -170,7 +170,7 @@ function loadVideo4() {
     ifrm.frameBorder = "no";
     ifrm.allow = "autoplay"
     ifrm.className = "video-4";
-    document.getElementById("audio").appendChild(ifrm);
+    document.getElementById("videos").appendChild(ifrm);
     hideSquirrel4();
 }
 
@@ -249,7 +249,7 @@ function loadVideo10() {
     ifrm.frameBorder = "no";
     ifrm.allow = "autoplay"
     ifrm.className = "video-10";
-    document.getElementById("audio").appendChild(ifrm);
+    document.getElementById("videos").appendChild(ifrm);
     hideSquirrel10();
 }
 
