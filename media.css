@@ -260,7 +260,7 @@ main {
 }
 
 #mask-3 {
-    grid-area: 6 / 1 / span 2 / span 1;
+    grid-area: 3 / 1 / span 1 / span 1;
     overflow: hidden;
     display: grid;
     align-items: flex-end;
