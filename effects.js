@@ -151,7 +151,7 @@ function loadVideo19() {
     ifrm.style.height = "100%";
     ifrm.frameBorder = "no";
     ifrm.allow = "autoplay"
-    ifrm.className = "video-6";
+    ifrm.className = "video-7";
     document.getElementById("media").appendChild(ifrm);
     hideSquirrel19();
 }
