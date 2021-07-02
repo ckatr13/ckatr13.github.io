@@ -434,7 +434,7 @@ main {
 }
 
 #mask-6 {
-    grid-area: 4 / 1 / span 1 / span 1;
+    grid-area: 2 / 1 / span 1 / span 1;
     overflow: hidden;
 }
 
@@ -568,7 +568,7 @@ main {
 }
 
 #mask-12 {
-    grid-area: 4 / 2 / span 1 / span 1;
+    grid-area: 3 / 1 / span 1 / span 1;
 }
 
 #mask-12:hover .bg-v {
@@ -597,7 +597,7 @@ main {
 }
 
 #mask-13 {
-    grid-area: 5 / 2 / span 1 / span 1;
+    grid-area: 3 / 2 / span 1 / span 1;
 }
 
 #mask-13:hover .bg-v {
@@ -626,7 +626,7 @@ main {
 }
 
 #mask-14 {
-    grid-area: 6 / 2 / span 1 / span 1;
+    grid-area: 4 / 1 / span 1 / span 1;
 }
 
 #mask-14:hover .bg-v {
@@ -655,7 +655,7 @@ main {
 }
 
 #mask-15 {
-    grid-area: 7 / 2 / span 1 / span 1;
+    grid-area: 4 / 2 / span 1 / span 1;
 }
 
 #mask-15:hover .bg-v {
@@ -774,7 +774,7 @@ main {
 }
 
 #mask-19 {
-    grid-area: 9 / 1 / span 1 / span 2;
+    grid-area: 2 / 2 / span 1 / span 1;
 }
 
 #mask-19:hover .bg-v {
