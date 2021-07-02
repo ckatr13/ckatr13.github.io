@@ -684,7 +684,7 @@ main {
 }
 
 #mask-16 {
-    grid-area: 8 / 1 / span 2 / span 1;
+    grid-area: 2 / 1 / span 1 / span 1;
     overflow: hidden;
     display: grid;
     align-items: flex-end;
@@ -835,7 +835,7 @@ main {
 }
 
 #mask-21 {
-    grid-area: 8 / 2 / span 2 / span 1;
+    grid-area: 2 / 2 / span 1 / span 1;
     overflow: hidden;
     display: grid;
     align-items: flex-end;
