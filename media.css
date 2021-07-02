@@ -716,7 +716,7 @@ main {
 }
 
 #mask-17 {
-    grid-area: 8 / 1 / span 1 / span 1;
+    grid-area: 5 / 1 / span 1 / span 2;
 }
 
 #mask-17:hover .bg-v {
@@ -745,7 +745,7 @@ main {
 }
 
 #mask-18 {
-    grid-area: 8 / 2 / span 1 / span 1;
+    grid-area: 6 / 1 / span 1 / span 2;
 }
 
 #mask-18:hover .bg-v {
