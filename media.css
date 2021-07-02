@@ -112,7 +112,7 @@ main {
 }
 
 #mask-1 {
-    grid-area: 2 / 1 / span 2 / span 1;
+    grid-area: 2 / 1 / span 1 / span 1;
     overflow: hidden;
     display: grid;
     grid-template-columns: 100%;
@@ -256,7 +256,7 @@ main {
 }
 
 .video-2 {
-    grid-area: 2 / 1 / span 2 / span 1;
+    grid-area: 1 / 1 / span 1 / span 1;
 }
 
 #mask-3 {
@@ -803,7 +803,7 @@ main {
 }
 
 #mask-20 {
-    grid-area: 2 / 2 / span 2 / span 1;
+    grid-area: 1 / 2 / span 1 / span 1;
     overflow: hidden;
     display: grid;
     align-items: flex-end;
@@ -831,7 +831,7 @@ main {
 }
 
 .video-19 {
-    grid-area: 2 / 2 / span 1 / span 1;
+    grid-area: 1 / 2 / span 1 / span 1;
 }
 
 #mask-21 {
