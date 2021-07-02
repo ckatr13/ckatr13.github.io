@@ -362,7 +362,7 @@ main {
 }
 
 .video-3 {
-    grid-area: 2 / 1 / span 1 / span 1;
+    grid-area: 1 / 1 / span 1 / span 1;
 }
 
 #v4 {
@@ -439,7 +439,7 @@ main {
 }
 
 .video-5 {
-    grid-area: 4 / 1 / span 1 / span 1;
+    grid-area: 2 / 1 / span 1 / span 1;
 }
 
 #v6 {
@@ -477,7 +477,7 @@ main {
 }
 
 .video-6 {
-    grid-area: 5 / 1 / span 1 / span 1;
+    grid-area: 1 / 2 / span 1 / span 1;
 }
 
 #v7 {
@@ -593,7 +593,7 @@ main {
 }
 
 .video-11 {
-    grid-area: 4 / 2 / span 1 / span 1;
+    grid-area: 3 / 1 / span 1 / span 1;
 }
 
 #mask-13 {
@@ -622,7 +622,7 @@ main {
 }
 
 .video-12 {
-    grid-area: 5 / 2 / span 1 / span 1;
+    grid-area: 3 / 2 / span 1 / span 1;
 }
 
 #mask-14 {
@@ -651,7 +651,7 @@ main {
 }
 
 .video-13 {
-    grid-area: 6 / 2 / span 1 / span 1;
+    grid-area: 4 / 1 / span 1 / span 1;
 }
 
 #mask-15 {
@@ -680,7 +680,7 @@ main {
 }
 
 .video-14 {
-    grid-area: 7 / 2 / span 1 / span 1;
+    grid-area: 4 / 2 / span 1 / span 1;
 }
 
 #mask-16 {
@@ -741,7 +741,7 @@ main {
 }
 
 .video-16 {
-    grid-area: 8 / 1 / span 1 / span 1;
+    grid-area: 5 / 1 / span 1 / span 2;
 }
 
 #mask-18 {
@@ -770,7 +770,7 @@ main {
 }
 
 .video-17 {
-    grid-area: 8 / 2 / span 1 / span 1;
+    grid-area: 6 / 1 / span 1 / span 2;
 }
 
 #mask-19 {
@@ -799,7 +799,7 @@ main {
 }
 
 .video-18 {
-    grid-area: 9 / 1 / span 1 / span 2;
+    grid-area: 2 / 2 / span 1 / span 1;
 }
 
 #mask-20 {
